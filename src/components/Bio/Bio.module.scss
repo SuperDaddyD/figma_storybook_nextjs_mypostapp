@@ -1,0 +1,56 @@
+.bio{
+    //border:1px solid red;
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro';
+}
+
+.bioImage{
+    img{
+        border-radius: 50%;
+        width: 16em;
+        height: auto;
+    }
+}
+
+.bioContent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+    //border: 1px solid hsl(0deg 0% 0%);
+}
+
+.bioContentName{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    color: #6519C7;
+}
+
+.bioContentTagline{
+
+font-weight: 400;
+font-size: 37px;
+line-height: 47px;
+
+color: #0C0C0C;
+margin-top: .2em;
+margin-bottom:.4em;
+
+}
+
+.bioContentRole{
+
+font-weight: 700;
+font-size: 1.6em;
+line-height: 36px;
+
+color: #0C0C0C;
+margin:0
+
+}
