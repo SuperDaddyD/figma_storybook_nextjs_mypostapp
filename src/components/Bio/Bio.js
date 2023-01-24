@@ -18,5 +18,3 @@ const Bio = ({ headshot, name, tagline, role }) => {
 };
 
 export default Bio;
-
-
