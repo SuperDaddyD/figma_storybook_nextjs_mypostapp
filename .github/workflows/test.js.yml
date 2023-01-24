@@ -28,5 +28,7 @@ jobs:
     - run: npm ci
     - run: npm i
     - run: npx eyes-storybook
-    env:
-        APPLITOOLS_API_KEY:${{ secrets.APPLITOOLS_API_KEY}}
+
+   env:
+        APPLITOOLS_API_KEY: ${{secrets.APPLITOOLS_API_KEY}}
+     
