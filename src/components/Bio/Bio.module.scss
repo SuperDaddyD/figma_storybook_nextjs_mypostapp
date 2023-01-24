@@ -3,6 +3,11 @@
     display: flex;
     align-items: center;
     font-family: 'Source Sans Pro';
+    @media(max-width:504px){
+      flex-direction: column;
+      margin-left: 0;
+      text-align: center;
+    }
 }
 
 .bioImage{
